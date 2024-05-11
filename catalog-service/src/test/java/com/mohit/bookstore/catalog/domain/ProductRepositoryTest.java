@@ -15,7 +15,7 @@ import org.springframework.test.context.jdbc.Sql;
             "spring.datasource.url=jdbc:tc:postgresql:16-alpine:///db",
         })
 // @Import(ContainersConfig.class)
-@Sql("/test-data.sql")
+@Sql("classpath:test-data.sql")
 class ProductRepositoryTest {
 
     @Autowired

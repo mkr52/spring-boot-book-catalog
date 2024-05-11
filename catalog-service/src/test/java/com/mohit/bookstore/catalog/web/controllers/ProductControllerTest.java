@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import org.junit.Test;
 import org.springframework.test.context.jdbc.Sql;
 
-@Sql("/test-data.sql")
+@Sql("classpath:test-data.sql")
 public class ProductControllerTest extends AbstractIT {
 
     @Test
