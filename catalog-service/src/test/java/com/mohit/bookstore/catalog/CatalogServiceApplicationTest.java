@@ -1,8 +1,6 @@
 package com.mohit.bookstore.catalog;
 
-import org.junit.Test;
-
-// Add annotation here
+import org.junit.jupiter.api.Test;
 
 public class CatalogServiceApplicationTest extends AbstractIT {
 
