@@ -17,6 +17,10 @@
 //        this.properties = properties;
 //    }
 //
+//     /**
+//      * Publishes a message to the RabbitMQ exchange.
+//      * @param message the message to be published, containing the routing key and payload
+//      */
 //    @PostMapping("/send")
 //    public void publish(@RequestBody MyMessage message) {
 //        rabbitTemplate.convertAndSend(
